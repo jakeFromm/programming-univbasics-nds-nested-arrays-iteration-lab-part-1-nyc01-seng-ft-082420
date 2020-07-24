@@ -9,6 +9,8 @@ while row_index < src.count do
     if (src[row_index][element_index] % 2) == 0 
       puts src[row_index][element_index]
       element_index += 1
+    else
+      element_index += 1
     end  
   end
   row_index += 1
